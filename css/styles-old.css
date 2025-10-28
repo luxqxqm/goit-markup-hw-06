@@ -20,72 +20,8 @@
 }
 
 /* ========== HERO ========== */
-.hero {
-  color: #ffffff;
-  padding: 188px 0;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/people-office.jpg);
-  max-width: 1440px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0 auto;
-}
-
-.hero-text {
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
-  max-width: 496px;
-  margin: 0 auto 48px;
-}
 
 /* ========== SECTION TEXT ========== */
-.section-text {
-  padding: 120px 0;
-}
-
-.section-text ul {
-  list-style: none;
-}
-
-.section-text-list,
-.section-text-ul {
-  display: flex;
-  gap: 24px;
-}
-
-.antena-svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 24px 0;
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  margin-bottom: 8px;
-  height: 112px;
-}
-
-.section-text-h2,
-.section-text-main {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin: 0 auto 8px auto;
-}
-
-.section-text-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
 
 .our-team-text {
   margin: 0 0 8px 0;
@@ -96,10 +32,6 @@
 }
 
 /* ========== OUR TEAM ========== */
-.our-team {
-  background: #f4f4fd;
-  padding: 120px 0;
-}
 
 .our-team .container {
   flex-direction: column;
@@ -130,15 +62,6 @@
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.our-team-des {
-  display: flex;
-  text-align: center;
-  padding: 32px 0;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .out-team-mark-guerrero {
   font-weight: 500;
   font-size: 20px;
@@ -165,11 +88,6 @@
   width: 100%;
   height: 100%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-icon.ocean:hover,
-.social-icon.ocean:focus {
-  background-color: #404bbf;
 }
 
 .network-list {
@@ -258,28 +176,7 @@
   margin-bottom: 8px;
 }
 
-.portfolio-text-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-.aplications {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
 /* ========== FOOTER ========== */
-.footer {
-  background-color: #2e2f42;
-  padding: 100px 0;
-}
-
-.spn-footer {
-  color: #f4f4fd;
-}
 
 .footer-p {
   line-height: 1.5;
@@ -289,11 +186,6 @@
   font-size: 16px;
   margin-top: 0;
   max-width: 264px;
-}
-
-.container-footer {
-  display: flex;
-  align-items: baseline;
 }
 
 .footer-text {
@@ -309,22 +201,6 @@
   display: flex;
   list-style-type: none;
   gap: 16px;
-}
-
-.footer-item {
-  width: 40px;
-  height: 40px;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-}
-
-.social-text {
-  margin-bottom: 16px;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
 }
 
 .social-icon.green {
