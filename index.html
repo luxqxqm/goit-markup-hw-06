@@ -10,13 +10,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Web Studio</title>
   </head>
   <body>
@@ -50,23 +50,47 @@
           </ul>
         </address>
 
-        <button class="burger-btn">
+        <button class="burger-btn is-open">
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-btn">
+            <svg class="menu-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="nav-mobile">
+            <ul class="mobile-list">
+              <li class="mobile-item">
+                <a href="./index.html" class="mobile-link">Studio</a>
+              </li>
+              <li class="mobile-item">
+                <a href="./index.html" class="mobile-link">Portfolio</a>
+              </li>
+              <li class="mobile-item">
+                <a href="./index.html" class="mobile-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+
+          <address class=""></address>
+        </div>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero hidden">
         <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button class="btn" type="button">Order Service</button>
         </div>
       </section>
 
-      <section class="section-text">
+      <section class="section-text hidden">
         <div class="container">
           <h2 class="section-text-h2 visually-hidden">Section№2</h2>
           <ul class="section-text-list">
@@ -122,7 +146,7 @@
         </div>
       </section>
 
-      <section class="our-team">
+      <section class="our-team hidden">
         <div class="container">
           <h2 class="our-team-header">Our Team</h2>
           <ul class="our-team-list">
@@ -291,7 +315,7 @@
         </div>
       </section>
 
-      <section class="portfolio">
+      <section class="portfolio hidden">
         <div class="container">
           <h2 class="portfolio-text">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -475,7 +499,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open hidden">
+    <div class="backdrop hidden">
       <div class="model">
         <button class="model-btn" type="button">
           <svg class="model-btn-icon" width="8" height="8">
