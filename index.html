@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="header-nav-a" href="./index.html"
             >Web<span class="spn">Studio</span></a
@@ -56,7 +56,7 @@
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-open">
+      <div class="mobile-menu">
         <div class="container mobile-menu-container">
           <button class="mobile-menu-btn">
             <svg class="menu-btn-icon" width="8" height="8">
@@ -77,13 +77,51 @@
             </ul>
           </nav>
 
-          <address class=""></address>
+          <address class="mobile-address">
+            <a href="tel:+110001111111" class="mobile-address-link"
+              >+11 (000) 111-11-11</a
+            >
+            <a href="mailto:info@devstudio.com" class="mobile-address-link"
+              >info@devstudio.com</a
+            >
+          </address>
+
+          <ul class="social-net-list">
+            <li class="social-net-item">
+              <a class="social-icon" href="#">
+                <svg class="instagram" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-net-item">
+              <a class="social-icon green" href="#">
+                <svg class="instagram" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-net-item">
+              <a class="social-icon green" href="#">
+                <svg class="instagram" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-net-item">
+              <a class="social-icon green" href="#">
+                <svg class="instagram" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
 
     <main>
-      <section class="hero hidden">
+      <section class="hero">
         <div class="container">
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button class="btn" type="button">Order Service</button>
