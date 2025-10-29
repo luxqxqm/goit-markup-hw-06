@@ -432,6 +432,66 @@ button {
   width: 100%;
 }
 
+@media (min-resolution: 1x) and (min-width: 1158px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background/background-pc-min.jpg);
+  }
+}
+
+@media (min-resolution: 2x) and (min-width: 1158px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background/background-pc@2x-min.jpg);
+  }
+}
+
+@media (min-resolution: 1x) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background/background-tab-min.jpg);
+  }
+}
+
+@media (min-resolution: 2x) and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background/background-tab@2x-min.jpg);
+  }
+}
+
+@media (min-resolution: 1x) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background/background-mob-min.jpg);
+  }
+}
+
+@media (min-resolution: 2x) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/images/background/background-mob@2x-min.jpg);
+  }
+}
+
 .hero-text {
   font-weight: 700;
   font-size: 36px;
