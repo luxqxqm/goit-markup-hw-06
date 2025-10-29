@@ -452,7 +452,7 @@ button {
   }
 }
 
-@media (min-resolution: 1x) and (min-width: 768px) {
+@media (min-resolution: 1x) and (min-width: 768px) and (max-width: 1157px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -462,7 +462,7 @@ button {
   }
 }
 
-@media (min-resolution: 2x) and (min-width: 768px) {
+@media (min-resolution: 2x) and (min-width: 768px) and (max-width: 1157px) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
