@@ -420,7 +420,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/background/background-pc-min.jpg);
+    url(../images/background/background-pc-min.jpg);
   max-width: 320px;
   background-repeat: no-repeat;
   background-position: center;
@@ -438,7 +438,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background/background-pc-min.jpg);
+      url(../images/background/background-pc-min.jpg);
   }
 }
 
@@ -448,7 +448,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background/background-pc@2x-min.jpg);
+      url(../images/background/background-pc@2x-min.jpg);
   }
 }
 
@@ -458,7 +458,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background/background-tab-min.jpg);
+      url(../images/background/background-tab-min.jpg);
   }
 }
 
@@ -468,7 +468,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background/background-tab@2x-min.jpg);
+      url(../images/background/background-tab@2x-min.jpg);
   }
 }
 
@@ -478,7 +478,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background/background-mob-min.jpg);
+      url(../images/background/background-mob-min.jpg);
   }
 }
 
@@ -488,7 +488,7 @@ button {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(/images/background/background-mob@2x-min.jpg);
+      url(../images/background/background-mob@2x-min.jpg);
   }
 }
 
